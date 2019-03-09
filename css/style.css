@@ -7408,7 +7408,7 @@ h1, h2, h3, h4, h5,
           transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
         #colorlib-aside #colorlib-main-menu ul li a:hover {
           text-decoration: none;
-          color: rgba(255,0,102,1); }
+          color: rgba(2,53,100,1); }
           #colorlib-aside #colorlib-main-menu ul li a:hover:after {
             visibility: visible;
             -webkit-transform: scaleX(1);
@@ -7445,7 +7445,7 @@ h1, h2, h3, h4, h5,
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(0, 0, 0, 0.7);
+          color: rgba(2,93,140, 1);
           padding: 4px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
@@ -8040,7 +8040,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 14px;
-  background: #132238;
+  background: rgba(2,93,140,1);
   padding: 6em 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;

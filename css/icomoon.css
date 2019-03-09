@@ -50,6 +50,7 @@
 }
 .icon-heart:before {
   content: "\f004";
+  color: rgba(251,184,41, 0.8);
 }
 .icon-star:before {
   content: "\f005";
