@@ -31,16 +31,16 @@
   <body>
 
 	<div id="colorlib-page">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" aria-expanded="false" aria-controls="navbar"><i></i></a>
 		<aside id="colorlib-aside" role="complementary" class="js-fullheight text-center">
 			<h1 id="colorlib-logo"><a>DK<span>.</span></a></h1>
 			<nav id="colorlib-main-menu" role="navigation">
 				<ul>
-					<li><a href="#" data-nav-section="home">Home</a></li>
-					<li><a href="#" data-nav-section="about">About</a></li>
-					<li><a href="#" data-nav-section="skills">Skills</a></li>
-					<li><a href="#" data-nav-section="projects">Projects</a></li>
-					<li><a href="#" data-nav-section="contact">Contact</a></li>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects" data-nav-section="projects">Projects</a></li>
+					<li><a href="#contact" data-nav-section="contact">Contact</a></li>
 				</ul>
 			</nav>
 
@@ -55,25 +55,67 @@
 				</ul>
 			</div>
 		</aside> <!-- END COLORLIB-ASIDE -->
-		<div id="colorlib-main">
-			<div class="hero-wrap js-fullheight" style="background-image: url(images/bg_1.jpg) ;" data-section="home" data-stellar-background-ratio="0.7">
+		<div id="colorlib-main" data-spy="scroll" data-target="#colorlib-main-menu" data-offset="0">
+			<div class="hero-wrap js-fullheight" style="background-image: url(images/bg_1.jpg) ;" data-section="home" data-stellar-background-ratio="0.7" id="home">
 				<div class="overlay"></div>
 				<div class="js-fullheight d-flex flex-column justify-content-center align-items-center">
 					<div class="col-md-8 text text-center">
 						<div class="img mb-4" style="background-image: url(images/author.jpg);"></div>
 						<div class="desc">
 							<h1 class="subheading">Hello, I'm</h1>
-							<h1 class="typewrite" data-period="1000" data-type='[ "Dominik.", "data scientist.", "cognitive scientist." ]' /h1>
+							<h1  class="typewrite" data-period="1000" data-type='["Dominik.", "data scientist.", "cognitive scientist." ]' 
+                            </h1>
 						</div>
 					</div>
 				</div>
 			</div>
+     			<section class="ftco-section" id="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+										<h2 class="colorlib-heading">Who Am I?</h2>       
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </section>
+                <section class="ftco-section" id="skills">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+										<h2 class="colorlib-heading">What can I do?</h2>       
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </section>
+                <section class="ftco-section" id="projects">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+										<h2 class="colorlib-heading">What have I done already?</h2>       
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </section>
+                    
+                
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container px-md-5">
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<h2 class="ftco-heading-2" id="contact">Have a Questions?</h2>
             	<div class="block-23 mb-3">
 	              <ul>
 	                <li><span class="icon icon-map-marker"></span><span class="text">Fake St. Mountain View 17, Aarhua, Denmark</span></li>
@@ -118,7 +160,9 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-  <script src="js/typewriter.js"></script>  
+  <script src="js/typewriter.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     
   </body>
 </html>
