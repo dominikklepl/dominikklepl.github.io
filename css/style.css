@@ -7576,7 +7576,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    opacity: .7;
+    opacity: .9;
     background: #fff;
     z-index: 0; }
   .hero-wrap.hero-wrap-2 .overlay {
@@ -7596,7 +7596,7 @@ h1, h2, h3, h4, h5,
     .hero-wrap .text .subheading {
       font-size: 30px;
       color: #4f4f4f;
-      font-weight: 300; }
+      font-weight: 900; }
     .hero-wrap .text h1 {
       letter-spacing: 1px;
       font-weight: 900;
