@@ -539,7 +539,7 @@ textarea:focus {
         background-color: transparent;
         text-align: center;
         h1 {
-            font-size: 82px;
+            font-size: 50px;
             color: #5AAC7B;
             margin-bottom: -10px;
             font-weight: 600;
@@ -559,7 +559,7 @@ textarea:focus {
         }
         h2 {
             margin-bottom: 0;
-            font-size: 30px;
+            font-size: 45px;
             color: #fff;
             font-weight: 600;
             @media #{$breakpoint-md} {
@@ -570,13 +570,13 @@ textarea:focus {
             }
         }
         img {
-        width: 2px;
+        width: 200px;
         height: 200px;
         margin: 0 auto;
-        -webkit-border-radius: 20%;
-        -moz-border-radius: 20%;
-        -ms-border-radius: 20%;
-        border-radius: 20%; 
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%; 
         }
             
         .contact-info {

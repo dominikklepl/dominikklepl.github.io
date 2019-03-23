@@ -455,13 +455,13 @@ textarea:focus {
     text-align: center;
 }
     .hero-area .hero-content img {
-      width: 230px;
-      height: 230px;
+      width: 200px;
+      height: 200px;
       margin-bottom: 40px;
-      -webkit-border-radius: 20%;
-      -moz-border-radius: 20%;
-      -ms-border-radius: 20%;
-      border-radius: 20%; }
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%; }
     .hero-area .hero-content h1 {
       font-size: 60px;
       color: #5AAC7B;
