@@ -3,14 +3,6 @@
 @import 'mixin';
 @import 'responsive';
 
-/*
-[Master Stylesheet - v1.0]
-- Template Name: Vcard - Resume CV & Vcard Template
-- Template Author: Colorlib
-- Template URL: http://colorlib.com
-- Version: 1.0.0
-*/
-
 /* ***** Index of Stylesheet *****
 :: 1.0 Import Fonts
 :: 2.0 Import All CSS
@@ -252,7 +244,7 @@ img {
 /* Preloader */
 
 #preloader {
-    background-color: $bg-default;
+    background-color: rgb(127,160,181);
     width: 100%;
     height: 100%;
     position: fixed;
@@ -546,13 +538,7 @@ textarea:focus {
         z-index: 1;
         background-color: transparent;
         text-align: center;
-        h5 {
-            font-size: 22px;
-            font-style: italic;
-            margin-bottom: 10px;
-            font-weight: 600;
-        }
-        h2 {
+        h1 {
             font-size: 82px;
             color: $bg-default;
             margin-bottom: -10px;
@@ -571,7 +557,7 @@ textarea:focus {
                 margin-bottom: 2px;
             }
         }
-        h3 {
+        h2 {
             margin-bottom: 0;
             font-size: 30px;
             color: $bg-default;
@@ -580,12 +566,12 @@ textarea:focus {
                 font-size: 24px;
             }
             @media #{$breakpoint-xs} {
-                font-size: 16px;
+                font-size: 20px;
             }
         }
         img {
-        width: 230px;
-        height: 230px;
+        width: 2px;
+        height: 200px;
         margin: 0 auto;
         -webkit-border-radius: 20%;
         -moz-border-radius: 20%;
