@@ -169,27 +169,40 @@ img {
 
 /* Section Heading */
 .section-heading {
-  position: relative;
   z-index: 1;
-  margin-bottom: 90px; }
+  margin-bottom: 40px; }
   .section-heading .line {
     width: 6px;
     height: 30px;
     margin-bottom: 15px;
     display: block;
-    background-color: #ffb016; }
+    background-color: #5AAC7B; }
   .section-heading h2 {
     margin-bottom: 0;
-    font-size: 48px;
-    color: #252525; }
+    font-size: 30px;
+    color: #000;
+    text-align: center;}
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .section-heading h2 {
-        font-size: 36px; } }
+        font-size: 25px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .section-heading h2 {
-        font-size: 36px; } }
+        font-size: 25px; } }
     @media only screen and (max-width: 767px) {
       .section-heading h2 {
+        font-size: 23px; } }
+  .section-heading h3 {
+    margin-bottom: 0;
+    font-size: 48px;
+    color: #5AAC7B; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .section-heading h3 {
+        font-size: 36px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .section-heading h3 {
+        font-size: 36px; } }
+    @media only screen and (max-width: 767px) {
+      .section-heading h3 {
         font-size: 30px; } }
   .section-heading.white .line {
     background-color: #fff; }
@@ -513,30 +526,6 @@ textarea:focus {
       font-size: 14px; }
       .hero-area .hero-content .social-info a:hover, .hero-area .hero-content .social-info a:focus {
         color: #ffb016; }
-  .hero-area.horizontal {
-    position: relative;
-    z-index: 10;
-    height: auto !important;
-    margin: 8% 0; }
-    .hero-area.horizontal .hero-content {
-      display: inline-block;
-      background-color: #141414;
-      padding: 50px 70px; }
-      .hero-area.horizontal .hero-content h5 {
-        color: #fff; }
-      .hero-area.horizontal .hero-content h3 {
-        color: #fff; }
-      @media only screen and (max-width: 767px) {
-        .hero-area.horizontal .hero-content {
-          padding: 15px; } }
-    .hero-area.horizontal .contact-info a {
-      color: #828282; }
-      .hero-area.horizontal .contact-info a:hover, .hero-area.horizontal .contact-info a:focus {
-        color: #ffb016; }
-    .hero-area.horizontal .social-info a {
-      color: #ffb016; }
-      .hero-area.horizontal .social-info a:hover, .hero-area.horizontal .social-info a:focus {
-        color: #fff; }
 
 /* :: 6.0 About Me Area */
 .about-me-text {
@@ -544,7 +533,8 @@ textarea:focus {
   z-index: 1; }
   .about-me-text h2 {
     font-size: 48px;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    text-align: center;}
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .about-me-text h2 {
         font-size: 36px; } }
