@@ -476,7 +476,7 @@ textarea:focus {
       -ms-border-radius: 50%;
       border-radius: 50%; }
     .hero-area .hero-content h1 {
-      font-size: 60px;
+      font-size: 48px;
       color: #5AAC7B;
       margin-bottom: -10px;
       font-weight: 600;
@@ -495,7 +495,7 @@ textarea:focus {
           margin-bottom: 2px; } }
     .hero-area .hero-content h2 {
       margin-bottom: 10;
-      font-size: 45px;
+      font-size: 30px;
       color: #fff;
       font-weight: 600; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {

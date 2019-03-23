@@ -553,27 +553,27 @@ textarea:focus {
         background-color: transparent;
         text-align: center;
         h1 {
-            font-size: 60px;
+            font-size: 48px;
             color: #5AAC7B;
             margin-bottom: -10px;
             font-weight: 600;
             line-height: 1.1;
             margin-left: -5px;
             @media #{$breakpoint-lg} {
-                font-size: 60px;
+                font-size: 36px;
             }
             @media #{$breakpoint-md} {
-                font-size: 60px;
+                font-size: 36px;
             }
             @media #{$breakpoint-xs} {
-                font-size: 60px;
+                font-size: 36px;
                 margin-left: -2px;
                 margin-bottom: 2px;
             }
         }
         h2 {
             margin-bottom: 0;
-            font-size: 45px;
+            font-size: 30px;
             color: #fff;
             font-weight: 600;
             @media #{$breakpoint-md} {
