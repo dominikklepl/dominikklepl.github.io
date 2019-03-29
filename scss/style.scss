@@ -413,20 +413,20 @@ textarea:focus {
     display: inline-block;
     min-width: 185px;
     height: 54px;
-    color:#fff;
+    color:#000;
     border: none;
     border-radius: 100;
     padding: 0 30px;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 54px;
     font-weight: 600;
     @include trans-duration(500ms);
-    text-transform: capitalize;
+    text-transform: uppercase;
     background-color: #5AAC7B;
     &.active,
     &:hover,
     &:focus {
-        font-size: 14px;
+        font-size: 20px;
         font-weight: 600;
         color: #fff;
         background-color: #252525;
@@ -473,7 +473,7 @@ textarea:focus {
                 }
             }
             .classynav > ul > li > a {
-                text-transform: capitalize;
+                text-transform: uppercase;
                 padding: 10px 15px;
                 background-color: #fff;
                 line-height: 1;
