@@ -553,17 +553,17 @@ textarea:focus {
         background-color: transparent;
         text-align: center;
         h1 {
-            font-size: 48px;
+            font-size: 50px;
             color: #5AAC7B;
             margin-bottom: -10px;
             font-weight: 600;
             line-height: 1.1;
             margin-left: -5px;
             @media #{$breakpoint-lg} {
-                font-size: 36px;
+                font-size: 72px;
             }
             @media #{$breakpoint-md} {
-                font-size: 36px;
+                font-size: 68px;
             }
             @media #{$breakpoint-xs} {
                 font-size: 36px;
@@ -573,14 +573,14 @@ textarea:focus {
         }
         h2 {
             margin-bottom: 0;
-            font-size: 30px;
+            font-size: 45px;
             color: #fff;
             font-weight: 600;
             @media #{$breakpoint-md} {
-                font-size: 28px;
+                font-size: 24px;
             }
             @media #{$breakpoint-xs} {
-                font-size: 28px;
+                font-size: 20px;
             }
         }
         img {
@@ -874,7 +874,7 @@ textarea:focus {
     z-index: 1;
     margin-left: 40px;
     margin-right: 40px;
-    background-color: #5AAC7B;
+    background-color: #fff;
     padding-left: 5%;
     padding-right: 5%;
     @media #{$breakpoint-lg} {
@@ -901,11 +901,25 @@ textarea:focus {
         position: relative;
         z-index: 1;
         margin-left: 15px;
+        margin-left: 30px;
+        h1 {    
+        position: relative;
+        font-size: 40px;
+        text-transform: uppercase;
+        padding-left: 35px;
+        color: #fff;
+        z-index: 1;
+        background-image: url(img/header-side.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-right: 20px;
+        }
         h3 {
             font-size: 48px;
             font-weight: 600;
             line-height: 1;
             margin-bottom: 5px;
+            text-align: center;
             @media #{$breakpoint-lg} {
                 font-size: 30px;
             }
@@ -917,9 +931,10 @@ textarea:focus {
             }
         }
         h6 {
-            font-size: 14px;
+            font-size: 19px;
             font-weight: 600;
             margin-bottom: 0;
+            text-align: center;
         }
     }
     @media #{$breakpoint-lg} {
