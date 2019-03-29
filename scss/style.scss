@@ -688,6 +688,11 @@ textarea:focus {
     }
     h6 {
         line-height: 2.1;
+        color: #828282;
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+        word-spacing: 7px;
+        text-align: center;
         color: $text-color;
         margin-bottom: 0;
         @media #{$breakpoint-xs} {
