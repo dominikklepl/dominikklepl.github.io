@@ -399,7 +399,7 @@ textarea:focus {
         font-weight: 500; }
         .header-area .vcard-main-menu .classy-navbar .classynav ul li a:hover, .header-area .vcard-main-menu .classy-navbar .classynav ul li a:focus {
           font-weight: 500;
-          color: #5AAC7B; }
+          color: #fff; }
       .header-area .vcard-main-menu .classy-navbar .classynav > ul > li > a {
         text-transform: uppercase;
         padding: 10px 15px;
@@ -409,7 +409,7 @@ textarea:focus {
         font-weight: 500;
         font-size: 16px; }
         .header-area .vcard-main-menu .classy-navbar .classynav > ul > li > a:hover, .header-area .vcard-main-menu .classy-navbar .classynav > ul > li > a:focus {
-          color: #5AAC7B; }
+          color: #fff; }
       .header-area .vcard-main-menu .classy-navbar .classynav > ul > li.active > a {
         position: relative;
         z-index: 1;
