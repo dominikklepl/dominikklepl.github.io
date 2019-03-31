@@ -248,6 +248,20 @@ img {
             font-size: 30px;
         }
     }
+    h4 {
+        margin-bottom: 0;
+        font-size: 48px;
+        color: #fff;
+        @media #{$breakpoint-lg} {
+            font-size: 36px;
+        }
+        @media #{$breakpoint-md} {
+            font-size: 36px;
+        }
+        @media #{$breakpoint-xs} {
+            font-size: 30px;
+        }
+    }
     &.white {
         .line {
             background-color: #fff;

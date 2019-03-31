@@ -212,6 +212,20 @@ img {
   .section-heading.white .line {
     background-color: #fff; }
 
+  .section-heading h4 {
+    margin-bottom: 0;
+    font-size: 48px;
+    color: #fff; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .section-heading h4 {
+        font-size: 36px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .section-heading h4 {
+        font-size: 36px; } }
+    @media only screen and (max-width: 767px) {
+      .section-heading h4 {
+        font-size: 30px; } }
+
 /* Preloader */
 #preloader {
   background-color: #7fa0b5;
