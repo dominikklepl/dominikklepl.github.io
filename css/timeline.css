@@ -176,6 +176,14 @@
     text-align: justify
 }
 
+.main-timeline9 .keywords {
+    font-size: 12px;
+    font-style: italic;
+    color: #DCDCDC;
+    text-align: center;
+    text-transform: capitalize
+}
+
 .main-timeline9 .icon {
     width: 25px;
     height: 25px;
