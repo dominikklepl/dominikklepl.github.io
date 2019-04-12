@@ -718,7 +718,11 @@ textarea:focus {
     }
     p {
         &:last-child {
-            margin-bottom: 0;
+                font-size: 15px;
+                line-height: 2.5;
+                margin-bottom: 0;
+                text-align: justify;
+                color: #828282;
         }
     }
 }

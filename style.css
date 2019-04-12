@@ -576,9 +576,13 @@ textarea:focus {
         margin-bottom: 20px; } }
 .about-me-text img {
     
-}
-  .about-me-text p:last-child {
+    }
+
+  .about-me-text p {
+    font-size: 15px;
+    line-height: 2.5;
     margin-bottom: 0;
+    text-align: justify;
     color: #828282;}
 
 /* :: 7.0 Skills Area */
