@@ -704,8 +704,10 @@ textarea:focus {
     }
     h3 {
         font-size: 48px;
-        margin-top: 45px;
+        margin-top: 2;
         margin-bottom: 15px;
+        text-align: center;
+        color: #828282; 
         @media #{$breakpoint-lg} {
             font-size: 36px;
         }
