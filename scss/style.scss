@@ -707,6 +707,7 @@ textarea:focus {
         color: #828282;
         margin-top: 45px;
         margin-bottom: 15px;
+        justify-content: center;
         @media #{$breakpoint-lg} {
             font-size: 36px;
         }
