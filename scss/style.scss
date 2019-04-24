@@ -33,7 +33,6 @@
 @import 'css/owl.carousel.min.css';
 @import 'css/animate.css';
 @import 'css/magnific-popup.css';
-@import 'css/font-awesome.min.css';
 @import 'css/custom-icon.css';
 @import 'css/classy-nav.min.css';
 @import 'css/nice-select.min.css';
@@ -692,6 +691,21 @@ textarea:focus {
     z-index: 1;
     h2 {
         font-size: 48px;
+        margin-bottom: 15px;
+        @media #{$breakpoint-lg} {
+            font-size: 36px;
+        }
+        @media #{$breakpoint-md} {
+            font-size: 30px;
+        }
+        @media #{$breakpoint-xs} {
+            font-size: 30px;
+        }
+    }
+    h3 {
+        font-size: 45px;
+        color: #828282;
+        margin-top: 45px;
         margin-bottom: 15px;
         @media #{$breakpoint-lg} {
             font-size: 36px;
