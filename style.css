@@ -1505,4 +1505,30 @@ textarea:focus {
       .education-timeline-wrapper .single-education-timeline p {
         font-size: 13px; } }
 
+.progress {
+  height: 35px;
+  padding: 5px;
+  padding-right: 30px;
+  background-color: #fff;
+}
+.progress .skill {
+  font-size: 15px;
+  line-height: 35px;
+  padding: 0;
+  margin: 0 0 0 15px;
+  text-transform: uppercase;
+}
+.progress .skill .val {
+  float: right;
+  font-size: 15px;
+  font-style: normal;
+  margin: 0 20px 0 0;
+}
+
+.progress-bar {
+  text-align: left;
+  transition-duration: 5s;
+  background-color: #5AAC7B;
+}
+
 /*# sourceMappingURL=style.css.map */
