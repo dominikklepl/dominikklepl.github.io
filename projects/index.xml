@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Dominik Klepl</title>
+    <link>https://dominikklepl.github.io/projects/</link>
+    <description>Recent content in Projects on Dominik Klepl</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://dominikklepl.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Semi-Supervised Pre-trained Neural Networks for Schizophrenia Subtyping</title>
+      <link>https://dominikklepl.github.io/projects/spnn-szs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dominikklepl.github.io/projects/spnn-szs/</guid>
+      <description>&lt;h2 id=&#34;objectives&#34;&gt;Objectives&lt;/h2&gt;&#xA;&lt;p&gt;This MSCA Postdoctoral Fellowship project develops a pre-trained neural network model using healthy brain data (Human Connectome Project, N=1200) to learn a normative template of brain function. The model uses self-supervised pre-training tasks (generative, predictive, contrastive) on resting-state fMRI functional connectivity graphs. When applied to schizophrenia patients, the embeddings quantify deviations from the healthy template, enabling discovery of neurobiologically meaningful subtypes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;methodology&#34;&gt;Methodology&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Graph neural networks and transformers&lt;/strong&gt; on ROI-level fMRI data (Craddock atlas)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Self-supervised pre-training tasks:&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Generative (masked autoencoders)&lt;/li&gt;&#xA;&lt;li&gt;Predictive (forecasting fMRI signals)&lt;/li&gt;&#xA;&lt;li&gt;Contrastive (brain &amp;ldquo;fingerprinting&amp;rdquo;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Meta-learning&lt;/strong&gt; to combine multiple pre-training tasks for a more general model&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Subtype validation&lt;/strong&gt; via cross-site generalization and consensus clustering&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Interpretation&lt;/strong&gt; through associations with symptoms, clinical variables, and structural MRI&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;team&#34;&gt;Team&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Supervisor:&lt;/strong&gt; Dr Jaroslav Hlinka (Complex Networks &amp;amp; Brain Dynamics Group, ICS CAS)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Collaborators:&lt;/strong&gt; National Institute of Mental Health (NIMH) Klecany&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;outputs&#34;&gt;Outputs&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Open-source models (GitHub/OSF)&lt;/li&gt;&#xA;&lt;li&gt;2+ first-author manuscripts&lt;/li&gt;&#xA;&lt;li&gt;Dissemination via ENIGMA consortium&lt;/li&gt;&#xA;&lt;li&gt;Conference presentations (OHBM, EMBC)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Population-graph approaches for multi-modal modelling of schizophrenia</title>
+      <link>https://dominikklepl.github.io/projects/population-graphs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dominikklepl.github.io/projects/population-graphs/</guid>
+      <description>&lt;p&gt;Developing population-graph methods that integrate multi-modal neuroimaging and clinical data to model schizophrenia at the group level. Supervised by Jaroslav Hlinka.&lt;/p&gt;&#xA;&lt;h2 id=&#34;team&#34;&gt;Team&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Supervisor:&lt;/strong&gt; Dr Jaroslav Hlinka (ICS CAS)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Predicting functional outcomes in schizophrenia from multimodal neuroimaging and clinical data</title>
+      <link>https://dominikklepl.github.io/projects/functional-outcomes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dominikklepl.github.io/projects/functional-outcomes/</guid>
+      <description>&lt;p&gt;Team member on project predicting functional outcomes in schizophrenia using multimodal neuroimaging and clinical data.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
